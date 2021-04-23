@@ -1,77 +1,42 @@
-<app-header></app-header>
-<router-outlet></router-outlet>
+
 <div>
-  <div class="card-header " style="text-align:center">
-    Satria Lencana Anter Aja
-  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" routerLink="/home">Satria Lencana</a>
 
-  <div class="card-body" style="text-align:center">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5 px-2 mb-r">
-          <div class="card grey">
-            <div class="view">
-              <a href="#">
-              </a>
-            </div>
-            <div class="card-body">
-              <mat-icon>stars</mat-icon>
-              <h4 class="card-title white-text">Bintang 1</h4>
-              <a class="btn btn-primary" routerLink="/bintang1">View Data</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-5 px-2 mb-r">
-          <div class="card orange lighten-1">
-            <div class="view">
-              <a href="#">
-              </a>
-            </div>
-            <div class="card-body">
-              <mat-icon>stars</mat-icon><mat-icon>stars</mat-icon>
-              <h4 class="card-title white-text">Bintang 2</h4>
-              <a class="btn btn-primary" routerLink="/bintang2">View Data</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-5 px-2 mb-r">
-          <div class="card grey">
-            <div class="view">
-              <a href="#">
-              </a>
-            </div>
-            <div class="card-body">
-              <mat-icon>stars</mat-icon><mat-icon>stars</mat-icon><mat-icon>stars</mat-icon>
-              <h4 class="card-title white-text">Bintang 3</h4>
-              <a class="btn btn-primary" routerLink="/bintang3">View Data</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-5 px-2 mb-r">
-          <div class="card orange lighten-1">
-            <div class="view">
-              <a href="#">
-              </a>
-            </div>
-            <div class="card-body">
-              <mat-icon>stars</mat-icon><mat-icon>stars</mat-icon><mat-icon>stars</mat-icon><mat-icon>stars</mat-icon>
-              <h4 class="card-title white-text">Bintang 4</h4>
-              <a class="btn btn-primary" routerLink="/bintang4">View Data</a>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="btn btn-primary" routerLink="/home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-primary" routerLink="/bintang1">Bintang 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-primary" routerLink="/bintang2">Bintang 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-primary" routerLink="/bintang3">Bintang 3</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-primary" routerLink="/bintang4">Bintang 4</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-primary" routerLink="/about">About</a>
+        </li>
+      </ul>
     </div>
-  </div>
-<br><br><br>
-  <div class="card-footer" style="text-align:center">
-    <p>    </p>
-  </div>
+  </nav>
 </div>
 
 
-<app-footer></app-footer>
+
+<router-outlet></router-outlet>
+<!-- Routed View Disini -->
+
+
+
+<div class="footer">
+  <div class="footer-copyright text-center py-3">
+    <a>Copyright Satria Lencana - Anter Aja © 2021 </a>
+  </div>
+</div>

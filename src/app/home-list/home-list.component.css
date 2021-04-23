@@ -1,0 +1,32 @@
+/* .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 110px;
+  margin-top:50px;
+} */
+/* .card-header:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+  margin-left: 100px;
+  margin-right: 130px;
+} */
+/* .card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  margin-left: 100px;
+  margin-right: 130px;
+} */
+/* .card-footer:last-child {
+  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+  margin-left: 100px;
+  margin-right: 130px;
+} */
+
+/* .card-body{
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  margin-left: 0px;
+  margin-right: 0px;
+} */

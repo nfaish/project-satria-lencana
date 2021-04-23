@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Bintang1Component } from './bintang1.component';
+import { Bintang2ListComponent } from './bintang2-list.component';
 
-describe('Bintang1Component', () => {
-  let component: Bintang1Component;
-  let fixture: ComponentFixture<Bintang1Component>;
+describe('Bintang2ListComponent', () => {
+  let component: Bintang2ListComponent;
+  let fixture: ComponentFixture<Bintang2ListComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ Bintang1Component ]
+      declarations: [ Bintang2ListComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Bintang1Component);
+    fixture = TestBed.createComponent(Bintang2ListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
